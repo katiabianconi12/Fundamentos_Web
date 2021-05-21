@@ -1,5 +1,5 @@
 /*Estilos da página index.html*/
-.center {
+.center { /*colocar no centro o texto*/
     text-align: center;
 }
 
@@ -7,7 +7,7 @@
     text-align: justify;
 }
 
-.container {
+.container { /*moldar meu paragrafo utilizando container, ou qualque outra tag que eu colocar o container*/
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -15,46 +15,49 @@
 }
 
 #menu li {
-    display: inline;
-    padding: 30px;
+    display: inline; /*moldar o menu*/
+    padding: 30px; /*espaçamento entre objetos*/
 }
 
-#menu li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+#menu li a { /*a = estar falando do link, do texto que esta dentro do link*/
+    text-decoration: none; /*tirou as linhas do menu*/
+    color: black; /*cor do menu*/
+    font-size: 20px;/*tamanho da fonte do menu*/
 }
 
-#menu li a:hover {
+#menu li a:hover { /*quando o mause estiver em cima do menu ira mudar de cor*/
     color:gray;
 }
 
-.p-30 {
-padding: 40px;
+.p-30 { /*criado para dizer que o meu seletor ira ter 30 px, ou seja meu espaçamento do meu paragrafo vai ter 30px*/
+padding: 30px;
 }
 
-.br-50 {
+/*
+.br-50 {  classe criada para br-50 para deixar as bordas redondas 
     border-radius: 50%;
 }
+*/
 
-.wh-300{
-    width: 300px;
-    height: 300px;
+.wh-300{ /*classe criada para largura e altura da imagem*/
+    width: 350px;
+    height: 350px;
 }
 
-.tm-social{
+.tm-social{ /*colocar os tamanhos do incones do whats e face*/
     width: 20px;
     height: 20px;
-    padding: 10px;
+    padding: 10px; /*espaçamento entre objetos*/
 }
 
 .mb-50 {
-    margin-bottom: 50 px;
+    margin-bottom: 50px; /*espaçamento da margem*/
 }
+
 
 /*
 Estilos da página contato.html
 */
 .ml-50 {
-margin-left: 50px;
+margin-left: 50px; /*espaçamento entre o endereço e o maps*/
 }
