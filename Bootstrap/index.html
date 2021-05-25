@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link para pegar o estilo css dos servidores do Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+      .tm-social {
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+    <title>Portal RE</title>
+    
+</head>
+<body>
+  
+<!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      
+        <a class="navbar-brand text-danger" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-danger" href="#">Personagens<span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Colection
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-danger" href="#">Resident Evil 8 - Village</a>
+                <a class="dropdown-item text-danger" href="#">Resident Evil 7 - Biohazard</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-danger" href="#">Contato</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+      <!--navbar-->
+      
+      <!--carrosel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" height='500' src="assets/img/re111.jpg" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Corredores escuros</h5>
+              <p>Casa mal assombrada, mistérios a serem resolvidos e muitos mais você encontra em 
+                Residente Evil Biohazard!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height='500' src="assets/img/re2.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height='500' src="assets/img/re3.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Venha conhecer a famosa Village</h5>
+              <p>Uma vila pacata e socessagada, com a atração de um castelo de matar e sua bela anfitriã Mãe Miranda e seus filhos.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height='500' src="assets/img/re4.jpg" alt="Quarto Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      <!--carrosel-->
+
+      <!--jumbotron-->
+      <div class="jumbotron bg-dark text-white">
+        <h1 class="display-4">Olá, Bem-vindos ao nosso portal RE</h1>
+        <p class="lead">Aqui você encontra tudo sobre os últimos lançamentos de Resident Evil Biohazard e 
+          Residente Evil Village e muito mais.</p>
+        <hr class="my-4">
+        <p>Resident Evil 7 (Biohazard)  incorpora elementos de jogabilidade conhecidos da franquia, com a exploração e a 
+          atmosfera tensa que deram origem ao termo “survival horror”. </p>
+        <p>
+          Resident Evil 8 (Village) Ambientado anos depois dos eventos terríveis do aclamado Resident Evil 7 Biohazard, a nova história começa 
+            com Ethan Winters e sua esposa, Mia, vivendo pacificamente em um novo lugar, livres do pesadelo do passado. 
+            Mas quando estavam começando a construir uma nova vida, ocorre novamente uma tragédia.
+        </p>       
+      </div>
+      <!--jumbotron-->
+
+      <!--Personagens-->
+      <div class="container">
+
+        <hr>
+        <h1 class="text-center" >Personagens</h1>
+        <h2 class="text-center p-3"> Personagens que você vai encontar em Village e Biohazard</h2>
+
+      <div class="card-columns">
+        <div class="card bg-dark">
+          <img class="card-img-top" src="assets/img/Ethan_W.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title text-white">Ethan Winters</h5>
+            <p class="card-text bg-dark text-white">Ethan é um homem comum que perdeu a esposa, Mia Winters, há três anos. 
+              Um dia, ele recebe uma mensagem dela e descobre que ela está viva em uma propriedade rural da cidade de Dulvey, na Louisiana. 
+              A busca de Ethan por sua esposa o fará entrar em um pesadelo</p>
+              <footer class="blockquote-footer">
+                <small class="text-white">
+                RE: Village e Biohazard<cite title="Título da fonte"> https://residentevil.com.br/</cite>
+                </small>
+              </footer>
+          </div>
+        </div>
+        <div class="card bg-dark p-3">
+            <img class="card-img-top" src="assets/img/MIA WINTERS.jpg" alt="Imagem de capa do card">
+            <h4 class="p-2 text-white">Mia Winters</h4>
+            <p class="text-white">Mia Winters desapareceu durante uma viagem a trabalho como babá. Para Ethan, seu marido, ela está morta há três anos. 
+              O desaparecimento de Mia esconde um grande mistério que pode colocar Ethan em perigo.
+            </p>
+            <footer class="blockquote-footer">
+              <small class=" text-white">
+                RE: Village e Biohazard<cite title="Título da fonte"> https://residentevil.com.br/</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card bg-dark">
+          <img class="card-img-top" src="assets/img/familia baker.jpg" alt="Imagem de capa do card">
+          <div class="card-body text-white">
+            <h5 class="card-title">Familía Baker</h5>
+            <p class="card-text">A família Baker costumava viver normalmente como qualquer outra, até que Eveline foi encontrada por Jack, junto com Mia Winters, 
+              após isso, Eveline infectou quase todos os membros da família tornando-os extremamente agressivos, exceto Lucas e Zoe. 
+              Joe Baker morava em um local afastado e por isso não foi infectado.</p>
+              <footer class="blockquote-footer">
+                <small class=" text-white">
+                  RE: Biohazard<cite title="Título da fonte"> https://residentevil.com.br/</cite>
+                </small>
+              </footer>
+          </div>
+        </div>
+        <div class="card bg-dark text-danger text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>No RE: 8/7 você encontra a melhor qualidade de gráficos e mobilidades de combates. Além de inimigos fortes
+              e ambientes assustadores.</p>
+            <footer class="blockquote-footer">
+              <small>
+                Categoria: Ação/Terror <cite title="Título da fonte"> https://residentevil.com.br/ </cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card bg-dark">
+          <div class="card-body text-white">
+            <img class="card-img-top" src="assets/img/duque.jpg" alt="Imagem de capa do card">
+            <h5 class="card-title p-3">Duque</h5>
+            <p class="card-text">Um homem estranho do vilarejo. Ele tem uma grande seleção de mercadorias em sua loja.</p>
+            <footer class="blockquote-footer">
+              <small class="text-white">
+                RE: Village<cite title="Título da fonte"> https://residentevil.com.br/</cite>
+              </small>
+            </footer>
+          </div>
+        </div>
+        <div class="card p-3 bg-dark text-white">
+          <blockquote class="blockquote mb-0">
+            <h5 class="card-title">Alcina Dimitrescu</h5>
+            <img class="card-img-top" src="assets/img/Alcina Dimitrescu.jpg" alt="Imagem de capa do card">
+            <p class="p-4">A senhora do castelo com vista para a vila. Uma mulher alta, imponente e elegante. Uma das 4 
+              figuras que dominam a vila sob o comando de Mãe Miranda. Lady Dimitrescu tem a ajuda de suas três 
+              filhas para auxiliar em suas tarefas. Juntas elas podem ser implacáveis.</p>
+            <footer class="blockquote-footer">
+              <small class=" text-white">
+                RE: Village<cite title="Título da fonte"> https://residentevil.com.br/</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card text-center bg-dark text-white">
+          <div class="card-body">
+            <img class="card-img" src="assets/img/chris-redfield.jpg" alt="Imagem do card">
+            <h5 class="card-title">Chris Redfield</h5>
+            <p class="card-text">Um dos principais personagens da série desde o primeiro Resident Evil, este ex-membro do S.T.A.R.S. 
+              serviu lutando em inúmeros incidentes de bioterrorismo. Nos eventos de Resident Evil Village ele trabalha como especialista 
+              para a B.S.A.A., uma ONG de combate ao bioterror.</p>
+              <footer class="blockquote-footer">
+                <small class=" text-white">
+                  RE: Village e Biohazard<cite title="Título da fonte"> https://residentevil.com.br/</cite>
+                </small>
+              </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Personagens-->
+
+    <!--RE Biohazard-->
+
+    <div class="container">
+      <hr>
+    <h2 class="text-center p-5">Residente Evil: 7 Biohazard</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <p class="text-justify">
+            Resident Evil 7 estabelece um novo caminho em direção às raízes da franquia ao apresentar uma mudança dramática para os jogos com uma perspectiva em primeira pessoa e visual produzido com um novo motor gráfico, a RE Engine, da Capcom.
+            O jogo é ambientado em uma cidade interiorana dos Estados Unidos após os eventos dramáticos de Resident Evil 6. Os jogadores vivenciam o terror diretamente da perspectiva dos olhos do personagem que controlam.
+            Resident Evil 7 incorpora elementos de jogabilidade conhecidos da franquia, com a exploração e a atmosfera tensa que deram origem ao termo “survival horror”, ao mesmo tempo que mostra uma completa atualização dos 
+            sistemas interativos, elevando a experiência de horror de sobrevivência. Criado com a RE Engine em conjunto com tecnologias de ponta de áudio e vídeo, Resident Evil 7 proporciona uma experiência assustadoramente realística aliada à realidade virtual.
+            Resident Evil 7 foi lançado inicialmente para PlayStation 4 (compatível com VR Mode), Xbox One e Windows PC (Steam e Windows 10 – Xbox Play Anywhere) em 2017. No mesmo ano, o título também ganhou uma Gold Edition com diversos conteúdos adicionais inclusos, 
+            como End of Zoe e Not a Hero, que expandem sua história. Já em 2018 foi a vez do Nintendo Switch receber a sua própria edição, Resident Evil 7 Cloud Version, que funciona por meio de streaming e conta com um modo de aluguel. Todas as versões têm menus e opção de legenda em português do Brasil.
+          </p>
+        </div>
+        <div class="col-md-7"> 
+          <img class="d-block w-100" height='500' src="assets/img/re biohazard.jpg" alt="RE:Biohazard">
+        </div>
+      </div>
+    </div>
+
+    <!--RE Biohazard-->
+
+    <!--RE Village-->
+
+    <div class="container">
+      <hr>
+    <h2 class="text-center p-5">Residente Evil: 8 Village</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <p class="text-justify">
+            Resident Evil Village é o oitavo jogo “numerado” da franquia. O título é uma sequência direta à história de Ethan Winters, que teve início em Resident Evil 7 e aos eventos que envolveram a família Baker. Depois de escaparem dos pesadelos na Louisiana, Ethan e a esposa, Mia Winters, vivem em uma localidade isolada na Europa e próximos de uma misteriosa Vila. O casal tem um bebê, Rosemary Winters, ou apenas Rose. Mas essa vida pacata, quase como um conto de fadas, é repentinamente abalada com o surgimento de Chris Redfield.
+            Chris, responsável por salvar o casal em RE7, mata Mia e sequestra Rose. Ethan é levado por um esquadrão da B.S.A.A., Hound Wolf (Lobo de Caça), liderado pelo antes “herói”. Um misterioso acidente acontece no percurso dessa captura e o pai da bebê inicia uma busca desesperada pela criança, enquanto tenta entender os motivos que levaram Chris a destruir sua família.
+            Resident Evil Village foi lançado em 7 de maio de 2021. O jogo tem versões para PC (Steam), PlayStation 4, PlayStation 5, Xbox One, Xbox Series X / S e Stadia. É o primeiro título da franquia totalmente localizado para o português – legendas e dublagem.
+          </p>
+        </div>
+        <div class="col-md-7"> 
+          <img class="d-block w-100" height='450' src="assets/img/re vilage.jpg" alt="RE:Vilagge">
+        </div>
+      </div>
+    </div>
+    <!--RE Village-->
+
+    <!--contato-->
+    <hr>
+<div class="container">
+  <div class="col-md-12">
+    <h3 class="text-center">Entre em contato comigo </h3>
+  
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Endereço de email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Assunto</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <button>Enviar</button>
+
+      </div>
+    </form>
+  </div>
+  <div class="col-md-6">
+
+    <iframe class="w-100"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.7298011127605!2d-46.67430368554448!3d-23.
+    506239865442925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef81fc9c1c87b%3A0x56bb06937ee96f13!2sAv.
+    %20Mandaqui%2C%20122%20-%20Lim%C3%A3o%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002550-000!5e0!3m2!1spt-BR!2sbr!4v1621909147290!5m2!1spt-BR!2sbr" 
+    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+</div>
+</div>
+  </div>
+
+</div>
+</div>
+
+      <!--contato-->
+
+        <!--RE footer-->
+<div class="container">
+  <hr>
+  <footer>
+    <div  class = "row mb-3"> 
+      <div class= "col-md-12 d-flex justify-content-center">
+        <a href="https://www.facebook.com/katia.sbianconi/" target="_blanck" class= "p-3"> 
+          <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
+          </a>
+          <a href="https://www.instagram.com/katia.bianconi/ " target="_blanck" class= "p-3">
+          <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+          </a>
+      </div>
+    </div>
+ <div>
+  <p class="text-center"> 
+    Todos os direitos reservados para: Kátia Bianconi & copy;
+</p>
+ </div>
+  </footer>
+</div>
+
+<!-- re footer-->
+ 
+
+            <!--RE footer-->
+
+<!--
+<div class="container">
+
+  <div class="row mt-5 d-flex justify-content-center"> row é uma linha
+
+    <div class="col-md-4 p-0"> col é uma coluna
+      <div class="bg-danger">4colunas</div>
+    </div>
+
+    <div class="col-md-4 p-0">
+      <div class="bg-warning">4colunas</div>
+    </div>
+
+    <div class="col-md-4 p-0">
+      <div class="bg-info">4colunas</div>
+    </div>
+
+  </div>
+</div> -->
+
+
+<!--Grid-->
+
+    <!--Scripts necessarios para utilização dos códigos JS do Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
